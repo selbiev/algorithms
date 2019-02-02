@@ -17,7 +17,7 @@ import java.util.Arrays;
  */
 public class MinHeap
 {
-	public int[] heap;	//maximum size of the heap
+	public int[] heap;	//the actual heap
 	public int size;	//effective number of elements in the heap
 	
 	public MinHeap(int MaxSize)
