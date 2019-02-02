@@ -11,6 +11,9 @@ import java.util.Arrays;
  * 
  * 2. constructor takes an array as an input an references this.heap to the input array and transforms it into a MinHeap. 
  * 
+ * Note: This class can be easily transformed into a MaxHeap by modifying the heapifyUpwards and heapify method. Just replace
+ * the < with > in the right places.
+ * 
  * @author Said Elbiev
  * @version 1.0
  *
