@@ -9,7 +9,7 @@ import java.util.Arrays;
  * 1. constructor just defines a maxumum size for the array. when using this constructor, then one can insert element
  * after element in the heap with the insert(int x) method.
  * 
- * 2. constructor takes an array as an input an references this.heap to the input array and transforms it into a MinHeap. 
+ * 2. constructor takes an array as an input an references this.heap to the input array and transforms it into a MinHeap.
  * 
  * @author Said Elbiev
  * @version 1.0
