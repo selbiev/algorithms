@@ -49,6 +49,8 @@ public class MinHeap
 	 */
 	public void deleteTopElement()
 	{
+		if(size==0)
+			return;
 		heap[0] = heap[size-1];
 		heap[size-1] = 0;
 		size--;
@@ -61,6 +63,8 @@ public class MinHeap
 	 */
 	public void deleteElementAt(int i)
 	{
+		if(size==0)
+			return;
 		heap[i] = heap[size-1];
 		heap[size-1] = 0;
 		size--;
